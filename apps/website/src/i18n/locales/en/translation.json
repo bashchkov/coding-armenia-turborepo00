@@ -1,0 +1,14 @@
+{
+  "app": {
+    "name": "Coding Armenia",
+    "description": "The Coding Armenia community is a platform created to help both beginner and experienced software developers."
+  },
+  "header": {
+    "sign_in": "Sign in",
+    "sign_up": "Sign up"
+  },
+  "footer": {
+    "copyright": "© {{year}} <0>Coding Armenia</0> community",
+    "text": "The <0>Coding Armenia</0> community is a platform created to help both beginner and experienced software developers."
+  }
+}
