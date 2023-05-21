@@ -36,7 +36,7 @@ export default async function SignInPage({ params: { locale } }: { params: { loc
           <input
             type="email"
             name="email"
-            placeholder={t('enter_your_email')}
+            placeholder={t('enter_your_email') ?? ''}
             className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
           />
         </div>
@@ -50,7 +50,7 @@ export default async function SignInPage({ params: { locale } }: { params: { loc
           <input
             type="password"
             name="password"
-            placeholder={t('enter_your_password')}
+            placeholder={t('enter_your_password') ?? ''}
             className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
           />
         </div>
