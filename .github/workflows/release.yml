@@ -28,7 +28,7 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
-      - name: Create Release Pull Request or Publish to npm ${{ secrets.NPM_TOKEN }} - ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
